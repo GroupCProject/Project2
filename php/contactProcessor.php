@@ -21,7 +21,7 @@ if (isset($_POST['submit'])) {
       $xml->asXml('./data/contactForm.xml');
       
       // Display thank you
-      header("Location: ../accepted.html");
+      header("Location: ../thankcontact.html");
   
 } else {
       // nothing happened --go back to feedback form

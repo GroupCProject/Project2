@@ -19,7 +19,7 @@ if (isset($_POST['submit'])) {
       $xml->asXml('./data/subs.xml');
       
       // Display thank you
-      header("Location: ../accepted.html");
+      header("Location: ../thanksub.html");
   
 } else {
       // nothing happened --go back to feedback form
